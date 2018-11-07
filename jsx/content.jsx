@@ -30,3 +30,8 @@ class Content extends React.Component {
 		);
 	}
 }
+Content.contextTypes = {
+	router: React.PropTypes.object.isRequired
+};
+
+module.exports = Content;
