@@ -2,7 +2,7 @@ const React = require('react');
 
 module.exports = function About() {
 	return (
-		<div>
+		<div className="my-3">
 			<a href="https://en.wikipedia.org/wiki/Rumi" target="_blank">
 				Jalāl ad-Dīn Muhammad Rūmī
 			</a>

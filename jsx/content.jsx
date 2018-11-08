@@ -5,8 +5,8 @@ class Content extends React.Component {
 	render() {
 		return (
 			<div>
-				<h1>Rumi's Poetry</h1>
-				<div className="navbar navbar-dark">
+				<h1 className="text-center text-success">Rumi's Poetry</h1>
+				<div className="navbar bg-dark navbar-dark">
 					<ul className="nav nav-pills navbar-nav">
 						<li className={this.context.router.isActive('/about') ? 'active' : ''}>
 							<Link to="/about" activeClassName="active">
