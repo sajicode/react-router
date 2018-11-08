@@ -3,14 +3,18 @@
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
+	"homepage": "https://sajicode.github.io/react-router",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"build": "./node_modules/.bin/webpack -w",
-		"i": "rm -rf ./node_modules && npm cache clean && npm install"
+		"i": "rm -rf ./node_modules && npm cache clean && npm install",
+		"deploy": "gh-pages -d js",
+		"publish": "npm run build && npm run deploy"
 	},
 	"author": "Adams Banjo",
 	"license": "MIT",
 	"dependencies": {
+		"gh-pages": "^2.0.1",
 		"history": "2.1.2",
 		"react": "15.2.1",
 		"react-dom": "15.2.1",
